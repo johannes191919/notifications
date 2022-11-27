@@ -1,3 +1,381 @@
-p{
-    color: aqua;
+@media only screen and (min-width: 401px) {
+
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
+
+html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(210, 60%, 98%);
+}
+
+p {
+    color: hsl(0, 0%, 100%) hsl(210, 60%, 98%) hsl(211, 68%, 94%) hsl(205, 33%, 90%) hsl(219, 14%, 63%) hsl(219, 12%, 42%) hsl(224, 21%, 14%);
+}
+
+li {
+    list-style-type: none;
+    position: relative;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+
+img {
+    width: 40px;
+    display: inline-block;
+    margin-right: 0.5rem
+}
+
+.container {
+    border-radius: 5px;
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: relative;
+
+    width: 35rem;
+
+}
+
+.top_page {
+    margin-top: 2.0rem;
+}
+
+.top_page button{
+
+    font-weight: 700;
+    border: none;
+    background-color: white;
+}
+.top_page button:hover{
+    color:  hsl(219, 85%, 26%);
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+
+
+
+.number{
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+}
+
+.content {
+
+    font-size: 12px;
+    display: inline-block;
+    position: absolute;
+    width: 430px;
+    margin-top: 6px;
+
+}
+
+.name {
+
+    font-weight: 600;
+    color: hsl(224, 21%, 14%);
+    margin-right: 0.5rem;
+
+}
+
+.date {
+    color: hsl(219, 14%, 63%);
+}
+
+.event {
+    color: hsl(219, 12%, 42%);
+}
+
+
+
+.pic {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 18px;
+    margin-right: 1rem;
+}
+.pic:hover{
+    cursor: pointer;
+}
+
+.message {
+    font-size: 12px;
+    margin-left: 48px;
+    margin-right: 62px;
+}
+
+.message:hover{
+    background-color:hsl(211, 68%, 94%) ;
+    cursor: pointer;
+}
+
+li:nth-child(4) .message {
+    color: hsl(219, 12%, 42%);
+    border: 1px solid hsl(205, 33%, 90%);
+    padding: 1.0rem;
+    border-radius: 5px;
+}
+
+
+
+.post {
+    color: hsl(214, 6%, 22%);
+    position: relative;
+    font-weight: 500;
+}
+
+ul {
+    margin: 2rem;
+}
+
+.top_page:nth-child(1) {
+    margin-left: 2rem;
+}
+
+.top_page .notifications {
+    font-size: 1.0rem;
+    font-weight: 700;
+
+}
+
+.top_page button {
+    right: 2rem;
+    position: absolute;
+    border: none;
+}
+
+.unread {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+}
+
+ .unread .dot{margin-top: 4.1px;
+    width: 7px;
+    position: absolute;
+    height: 7px;
+    background-color: hsl(1, 90%, 64%);
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.follow .name:hover {cursor: pointer;
+ color:hsl(219, 85%, 26%) ;}
+
+ .unread .post:hover{cursor: pointer;
+    color:hsl(219, 85%, 26%) ;}
+
+    
+ .unread .club:hover{cursor: pointer;
+    color:hsl(219, 85%, 26%) ;}}
+
+
+ @media only screen and (max-width: 400px) {
+
+
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        html {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            font-size: 20px;
+        }
+        
+        body {
+            background-color: white;
+        }
+        
+        p {
+            color: hsl(0, 0%, 100%) hsl(210, 60%, 98%) hsl(211, 68%, 94%) hsl(205, 33%, 90%) hsl(219, 14%, 63%) hsl(219, 12%, 42%) hsl(224, 21%, 14%);
+        }
+        
+        li {
+            list-style-type: none;
+            position: relative;
+            padding: 1.5rem;
+
+            margin-top: 0.5rem;
+        }
+        
+        img {
+            width: 40px;
+            display: inline-block;
+            margin-right: 0.5rem
+        }
+        
+        .container {
+            border-radius: 5px;
+
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            position: relative;
+        
+            width: 24rem;
+        
+        }
+        
+        .top_page {
+            margin-top: 2.0rem;
+        }
+        
+        .top_page button{
+        
+            font-weight: 700;
+            border: none;
+            background-color: white;
+        }
+        .top_page button:hover{
+            color:  hsl(219, 85%, 26%);
+            cursor: pointer;
+            font-weight: 700;
+            
+        }
+        
+        
+        
+        .number{
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            border-radius: 6px;
+            text-align: center;
+            background-color: hsl(219, 85%, 26%);
+            color: white;
+        }
+        
+        .content {
+        
+            font-size: 15px;
+            display: inline-block;
+            position: absolute;
+            width: 277px;
+            margin-top: 6px;
+        
+        }
+        
+        .name {
+        
+            font-weight: 600;
+            color: hsl(224, 21%, 14%);
+            margin-right: 0.5rem;
+        
+        }
+        
+        .date {
+            color: hsl(219, 14%, 63%);
+        }
+        
+        .event {
+            color: hsl(219, 12%, 42%);
+        }
+        
+        
+        
+        .pic {
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-top: 31px;
+            margin-right: 0rem;
+        }
+        .pic:hover{
+            cursor: pointer;
+        }
+        
+        .message {
+            font-size: 12px;
+            margin-left: 48px;
+            margin-right: 62px;
+        }
+        
+        .message:hover{
+            background-color:hsl(211, 68%, 94%) ;
+            cursor: pointer;
+        }
+        
+        li:nth-child(4) .message {
+            color: hsl(219, 12%, 42%);
+            margin-top: 37px;
+            border: 1px solid hsl(205, 33%, 90%);
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        
+        
+        
+        .post {
+            color: hsl(214, 6%, 22%);
+            position: relative;
+            font-weight: 500;
+        }
+        
+        ul {
+            margin: 2rem;
+
+        }
+        
+        .top_page:nth-child(1) {
+            margin-left: 2rem;
+        }
+        
+        .top_page .notifications {
+            font-size: 1.0rem;
+            font-weight: 700;
+        
+        }
+        
+        .top_page button {
+            font-size: 17px;
+            right: 2rem;
+            position: absolute;
+            border: none;
+        }
+        
+        .unread {
+            background-color: hsl(210, 60%, 98%);
+            border-radius: 10px;
+        }
+        
+         .unread .dot{margin-top: 4.1px;
+            width: 7px;
+            position: absolute;
+            height: 7px;
+            background-color: hsl(1, 90%, 64%);
+            margin-left: 5px;
+            border-radius: 50%;
+        }
+        .follow .name:hover {cursor: pointer;
+         color:hsl(219, 85%, 26%) ;}
+        
+         .unread .post:hover{cursor: pointer;
+            color:hsl(219, 85%, 26%) ;}
+        
+            
+         .unread .club:hover{cursor: pointer;
+            color:hsl(219, 85%, 26%) ;}}
