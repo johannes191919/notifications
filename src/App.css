@@ -45,7 +45,7 @@ img {
     overflow: hidden;
     position: relative;
 
-    width: 35rem;
+    width: 37rem;
 
 }
 
@@ -53,12 +53,14 @@ img {
     margin-top: 2.0rem;
 }
 
-.top_page button{
 
-    font-weight: 700;
-    border: none;
-    background-color: white;
-}
+.top_page button{
+        color: hsl(219, 12%, 42%);
+        font-weight: 100;
+        border: none;
+        background-color: white;
+    }
+
 .top_page button:hover{
     color:  hsl(219, 85%, 26%);
     cursor: pointer;
@@ -244,8 +246,8 @@ ul {
         }
         
         .top_page button{
-        
-            font-weight: 700;
+            color: hsl(219, 12%, 42%);
+            font-weight: 100;
             border: none;
             background-color: white;
         }
@@ -350,11 +352,11 @@ ul {
         
         }
         
-        .top_page button {
-            font-size: 17px;
-            right: 2rem;
-            position: absolute;
+        .top_page button{
+            color: hsl(219, 12%, 42%);
+            font-weight: 100;
             border: none;
+            background-color: white;
         }
         
         .unread {
