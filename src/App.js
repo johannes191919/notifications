@@ -16,17 +16,17 @@ function list_make(list_items) {
       event={list_items.event}
       post={list_items.post}
       club={list_items.club}
-      className={(list_items.readed=== false)?
-        (list_items.id === 1  ) ? "unread list_item" : "list_item" &&
-       (list_items.id === 3  ) ? " unread club list_item" :"list_item"  && 
-       (list_items.id === 7  ) ? "club list_item" :"list_item"  && 
-       (list_items.id === 2 ) ? "unread follow list_item" :"list_item":      
-         (list_items.id === 1  ) ? "list_item" : "list_item" &&
-       (list_items.id === 3  ) ? " club list_item" :"list_item"  && 
-       (list_items.id === 7  ) ? "club list_item" :"list_item"  && 
-       (list_items.id === 2 ) ? "list_item" :"list_item" }
+      className={(list_items.readed === false) ?
+        (list_items.id === 1) ? "unread list_item" : "list_item" &&
+          (list_items.id === 3) ? " unread club list_item" : "list_item" &&
+            (list_items.id === 7) ? "club list_item" : "list_item" &&
+              (list_items.id === 2) ? "unread follow list_item" : "list_item" :
+        (list_items.id === 1) ? "list_item" : "list_item" &&
+          (list_items.id === 3) ? " club list_item" : "list_item" &&
+            (list_items.id === 7) ? "club list_item" : "list_item" &&
+              (list_items.id === 2) ? "list_item" : "list_item"}
       dot={list_items.span}
-      dot_class_name={(list_items.id === 1 ||list_items.id === 3 ||  list_items.id === 2 ) ? "dot" : null}
+      dot_class_name={(list_items.id === 1 || list_items.id === 3 || list_items.id === 2) ? "dot" : null}
       message={list_items.message}
       img={list_items.img}
       date={list_items.date}
@@ -43,8 +43,8 @@ function App() {
 
     readmessages(0)
 
-    List_items.map(list_items => list_items.readed=true)
- 
+    List_items.map(list_items => list_items.readed = true)
+
   }
 
   return (<div className='container'>
